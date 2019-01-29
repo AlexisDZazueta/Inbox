@@ -4,7 +4,7 @@
   "description": "A little smart contracts demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node compile.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AlexisDZazueta/Inbox/issues"
   },
-  "homepage": "https://github.com/AlexisDZazueta/Inbox#readme"
+  "homepage": "https://github.com/AlexisDZazueta/Inbox#readme",
+  "dependencies": {
+    "solc": "^0.4.17"
+  }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "A little smart contracts demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisDZazueta/Inbox.git"
+  },
+  "keywords": [
+    "Solidity",
+    "Etherum",
+    "Blockchain"
+  ],
+  "author": "Alexis D. Zazueta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexisDZazueta/Inbox/issues"
+  },
+  "homepage": "https://github.com/AlexisDZazueta/Inbox#readme"
+}

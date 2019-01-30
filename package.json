@@ -4,7 +4,8 @@
   "description": "A little smart contracts demo",
   "main": "index.js",
   "scripts": {
-    "start": "node compile.js"
+    "start": "node compile.js",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,9 @@
   },
   "homepage": "https://github.com/AlexisDZazueta/Inbox#readme",
   "dependencies": {
-    "solc": "^0.4.17"
+    "ganache-cli": "^6.2.5",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.17",
+    "web3": "^1.0.0-beta.35"
   }
 }
